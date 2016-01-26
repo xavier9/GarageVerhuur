@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment"
+        android:name="com.ehb.xavier.garageverhuur.GarageActions.GarageGetFragment"
+        tools:layout="@layout/list_get_garage" android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        class="com.ehb.xavier.garageverhuur.GarageActions.GarageGetFragment"
+        android:layout_above="@+id/radioGroup" />
+    <RadioGroup
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup"
+        android:background="@drawable/maintab_toolbar_bg"
+        android:layout_height="60dp"
+        android:layout_width="fill_parent"
+
+        android:layout_alignParentBottom="true">
+
+        <RadioButton
+            style="@style/main_tab_bottom"
+            android:id="@id/radio_button0"
+            android:layout_marginTop="2.0dip"
+            android:text="@string/main_add"
+            android:drawableTop="@android:drawable/ic_menu_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+
+    </RadioGroup>
+</RelativeLayout>

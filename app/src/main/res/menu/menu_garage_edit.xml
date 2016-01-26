@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ehb.xavier.garageverhuur.GarageActions.GarageEditActivity">
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/seartch"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="android.widget.SearchView"/>
+</menu>
